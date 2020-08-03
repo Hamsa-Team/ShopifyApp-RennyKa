@@ -1,0 +1,49 @@
+{
+  "name": "training-graphql-dongnq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamsa-Team/training-graphql-dongnq.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hamsa-Team/training-graphql-dongnq/issues"
+  },
+  "homepage": "https://github.com/Hamsa-Team/training-graphql-dongnq#readme",
+  "dependencies": {
+    "@apollo/client": "^3.1.1",
+    "@shopify/app-bridge-react": "^1.26.2",
+    "@shopify/koa-shopify-auth": "^3.1.65",
+    "@shopify/koa-shopify-graphql-proxy": "^4.0.1",
+    "@shopify/koa-shopify-webhooks": "^2.4.3",
+    "@shopify/polaris": "^5.1.0",
+    "@zeit/next-css": "^1.0.1",
+    "apollo-boost": "^0.4.9",
+    "apollo-server": "^2.16.1",
+    "apollo-server-koa": "^2.16.1",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-graphiql": "^1.1.0",
+    "koa-mongo": "^1.9.1",
+    "koa-router": "^9.1.0",
+    "koa-session": "^6.0.0",
+    "next": "^9.5.0",
+    "node-fetch": "^2.6.0",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.13.1"
+  }
+}
